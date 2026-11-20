@@ -1,0 +1,20 @@
+{
+  "rules": {
+    "publicRooms": {
+      ".read": true,
+      ".indexOn": ["updatedAt"],
+      "$roomCode": {
+        ".read": true,
+        ".write": true,
+        ".validate": "$roomCode.length >= 4 && $roomCode.length <= 12"
+      }
+    },
+    "rooms": {
+      "$roomCode": {
+        ".read": true,
+        ".write": true,
+        ".validate": "$roomCode.length >= 4 && $roomCode.length <= 12"
+      }
+    }
+  }
+}

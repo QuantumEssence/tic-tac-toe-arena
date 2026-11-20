@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Tic Tac Toe Arena</string>
+    <string name="title_activity_main">Tic Tac Toe Arena</string>
+    <string name="package_name">com.carlo.tictactoe</string>
+    <string name="custom_url_scheme">com.carlo.tictactoe</string>
+</resources>
